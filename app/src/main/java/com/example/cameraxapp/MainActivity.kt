@@ -50,6 +50,7 @@ class MainActivity : AppCompatActivity() {
         }
 
     private fun askPermissions(){
+
         activityResultLauncher.launch(REQUIRED_PERMISSIONS)
     }
 }
